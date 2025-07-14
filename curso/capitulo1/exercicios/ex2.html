@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <a href="/paginaHTML.github.io/curso/sumario">Sumario</a><br>
+    <h1>Tabelas</h1>
+    <div>
+        <h2>Célula com 2 colunas:</h2>
+        <table border="1">
+            <tr>
+                <th style="text-align: center;">
+                    <strong> Nome</strong>
+                </th>
+                <!-- colspan =2 está indicando que telefone ocupa duas colunas -->
+                 <th "text-align: center;" colspan="2">
+                    <strong>Telefone</strong>
+                </th>
+            </tr>   
+            <tr>
+                <td>
+                José das Colves
+            </td>
+            <td>
+                (22) 2728-6677
+            </td>
+            <td>
+                (22) 2728-7766
+            </td>
+            </tr>
+            
+        </table>
+    </div>
+    <div>
+        <h2>Célula com 2 linhas:</h2>
+        <table border="1">
+            <tr>
+                <th style="text-align: center;">
+                    <strong>
+                        Nome:
+                    </strong>
+                </th>
+                <td>
+                    José das Colves
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: center;" rowspan="2">
+                    <strong>
+                        Telefone:
+                    </strong>
+                </th>
+                <td >
+                    (22) 2728-6677
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    (22) 2728-7766
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Tabela com Legenda</h2>
+        <table border="1">
+            <caption>Total de despesas no mês</caption>
+            <tr>
+                <th style="text-align: center;">
+                    <strong>
+                        Mês
+                    </strong>
+                </th>
+                <th style="text-align: center;">
+                    <strong>
+                        Total
+                    </strong>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Janeiro
+                </td>
+                <td>
+                    R$ 1.500,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Fevereiro
+                </td>
+                <td>
+                    R$ 1470,00
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
