@@ -1,4 +1,11 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -26,7 +33,6 @@ body {
 /* Menu lateral */
 .sidebar {
   grid-area: sidebar;
-  background-color: #999;
   padding: 20px 0;
 }
 
