@@ -30,6 +30,27 @@ body {
   padding: 20px 0;
 }
 
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  background-color: #666;
+  margin: 10px 0;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.sidebar li:hover {
+  background-color: #777;
+}
+
 /* Conteúdo principal */
 .main-content {
   grid-area: main;
