@@ -35,6 +35,7 @@ body {
   grid-area: sidebar;
   background-color: #ffffff00;
   padding: 20px 0;
+  border-right: 2px solid black;
 }
 
 .sidebar ul {
