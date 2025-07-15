@@ -33,6 +33,7 @@ body {
 /* Menu lateral */
 .sidebar {
   grid-area: sidebar;
+  background-color: #ffffff;
   padding: 20px 0;
 }
 
